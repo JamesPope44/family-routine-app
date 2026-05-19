@@ -1,0 +1,45 @@
+{
+  "routines": {
+    "finley_morning": {
+      "name": "Finley Morning",
+      "steps": [
+        {
+          "label": "Milk",
+          "emoji": "\ud83d\udecf\ufe0f"
+        },
+        {
+          "label": "Stories",
+          "emoji": "\ud83d\udecf\ufe0f"
+        },
+        {
+          "label": "Brush Teeth",
+          "emoji": "\ud83d\udecf\ufe0f"
+        },
+        {
+          "label": "Nappy",
+          "emoji": "\ud83d\udecf\ufe0f"
+        },
+        {
+          "label": "Breakfast",
+          "emoji": "\ud83d\udecf\ufe0f"
+        },
+        {
+          "label": "Glasses",
+          "emoji": "\ud83d\udecf\ufe0f"
+        }
+      ]
+    }
+  },
+  "progress": {
+    "2026-05-19": {
+      "finley_morning": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  }
+}
