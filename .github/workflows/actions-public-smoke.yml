@@ -10,11 +10,20 @@ permissions:
   contents: read
 
 jobs:
-  smoke:
+  ubuntu:
     runs-on: ubuntu-latest
     timeout-minutes: 2
     steps:
-      - name: Prove runner materialisation
-        run: |
-          echo "GitHub Actions public-repository smoke test"
-          uname -a
+      - run: echo "ubuntu runner started"
+
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 2
+    steps:
+      - run: echo "windows runner started"
+
+  macos:
+    runs-on: macos-latest
+    timeout-minutes: 2
+    steps:
+      - run: echo "macos runner started"
